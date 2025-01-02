@@ -4,6 +4,7 @@ public class Book {
     private double price;
     private int quantity;
 
+    // Constructor
     public Book(String title, String author, double price, int quantity) {
         this.title = title;
         this.author = author;
@@ -11,5 +12,6 @@ public class Book {
         this.quantity = quantity;
     }
 
+    // Getters and Setters
     
 }
