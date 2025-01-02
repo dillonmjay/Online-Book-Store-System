@@ -10,6 +10,7 @@ public class Customer {
         this.password = password;
     }
 
+    // Getters and Setters
     public String getName(){
         return name;
     }
@@ -33,5 +34,5 @@ public class Customer {
     public void setPassword(String password){
         this.password = password;
     }
-    
+
 }
