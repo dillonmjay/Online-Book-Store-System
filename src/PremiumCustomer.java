@@ -17,5 +17,13 @@ public class PremiumCustomer extends Customer {
         this.discountRate = discountRate;
     }
 
-    
+    // Override toString() method to include premium-specific details
+    @Override
+    public String toString() {
+        return "PremiumCustomer{" +
+                "name='" + getName() + '\'' +
+                ", username='" + getUsername() + '\'' +
+                ", discountRate=" + discountRate +
+                '}';
+    }
 }
