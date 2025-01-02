@@ -45,5 +45,13 @@ public class Book {
         this.quantity = quantity;
     }
 
-    
+    // toString() Method
+    @Override
+    public String toString() {
+        return "Book {" + "title = '" + title + '\''
+                        + ", author = '" + author + '\''
+                        + ", price = " + price
+                        + ", quantity = " + quantity
+                        + '}';
+    }
 }
