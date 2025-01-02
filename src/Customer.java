@@ -35,4 +35,12 @@ public class Customer {
         this.password = password;
     }
 
+    // toString Method
+    @Override
+    public String toString(){
+        return "Customer {"
+                + "name = '" + name + '\''
+                + ", username = '" + username + '\''
+                + '}';
+    }
 }
